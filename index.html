@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="simulador.css" media="screen">
+    <title>Simulador</title>
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div>
+        <h1 id="titulo">Simulador para venda de veículo </h1>
+        <br>
+    </div>
+
+    <form>
+        <fieldset>
+            <div class="campo">
+                <label for="tipoVeiculo">Tipo de Veiculo</label>
+                <select id="tipoVeiculo" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>CARROS</option>
+                    <option>MOTOS</option>
+                    <option>CAMINHÕES</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="marca">Marca</label>
+                <select id="marca" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>VW - Volkswagen</option>
+                    <option>CAOA</option>
+                    <option>Chevrolet</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="modelo">Modelo</label>
+                <select id="modelo" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>AMAROK High.cd 2.0 16v tdi 4x4</option>
+                    <option>TIGGO 8 TURBO GDI</option>
+                    <option>MONTANA - RS</option>
+                </select>
+            </div>
+            <div class="campo">
+                <label for="ano">Ano</label>
+                <select id="ano" required>
+                    <option selected disabled value="">Selecione</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+    <form class="form-inline">
+        <div class="form-group">
+            <label class="sr-only" for="valorDaVenda">Valor da venda</label>
+            <div class="input-group">
+                <div class="input-group-addon">R$</div>
+                <input type="text" class="form-control" id="valorDaVenda" placeholder="Valor da venda">
+                <div class="input-group-addon">.00</div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-info"><strong>CONSULTAR</strong></button>
+    </form>
+    <div class="resultado">
+        <p>Marca</p>
+        <p>Modelo</p>
+        <p>Ano do modelo</p>
+        <p>Código FIPE</p>
+        <p>Mês referência</p>
+    </div>
+</body>
+
+</html>
