@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 2%;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    margin-top: 1%;
+    justify-content: center;
+}
+
+select,
+textarea,
+button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+    display: inline-block;
+    width: 250px;
+}
+
+.campo label {
+    margin-bottom: 0.3em;
+    color: grey;
+    display: block;
+    text-align: left;
+
+}
+
+fieldset .campo .grupo {
+    float: left;
+    margin-right: 1em;
+
+}
+
+.campo select {
+    padding: 0.2em;
+    border: 1px solid grey;
+    display: block;
+    background-color: grey;
+    color: white;
+    width: 200px;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.input-group {
+    width: 500px;
+    padding: 2em;
+    margin: auto;
+
+}
+
+button {
+    width: 250px;
+
+}
+
+.resultado{
+    margin-right: 30%;
+    padding: 20px;
+    line-height: 3;
+        
+}
+       
