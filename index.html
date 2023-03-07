@@ -57,13 +57,22 @@
             </div>
         </fieldset>
     </form>
-    <form class="form-inline">
+    <form action="calculo.php" method="post" class="form-inline">
         <div class="form-group">
             <label class="sr-only" for="valorDaVenda">Valor da venda</label>
             <div class="input-group">
                 <div class="input-group-addon">R$</div>
-                <input type="text" class="form-control" id="valorDaVenda" placeholder="Valor da venda">
-                <div class="input-group-addon">.00</div>
+                <input type="number" step="any" class="form-control" id="valorDaVenda" placeholder="Valor da venda">
+                <div class="input-group-addon">,00</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="sr-only" for="valorDaFipe">Valor da tabela FIPE</label>
+            <div class="input-group">
+                <div class="input-group-addon">R$</div>
+                <input type="number" step="any" class="form-control" id="valorDaFipe"
+                    placeholder="Valor da tabela FIPE">
+                <div class="input-group-addon">,00</div>
             </div>
         </div>
         <button type="submit" class="btn btn-info"><strong>CONSULTAR</strong></button>
@@ -75,6 +84,10 @@
         <p>Código FIPE</p>
         <p>Mês referência</p>
     </div>
+    <div class="box">
+        <p>Valor abaixo do mercado</p>
+    </div>
+
 </body>
 
 </html>
