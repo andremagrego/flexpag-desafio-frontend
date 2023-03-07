@@ -21,6 +21,7 @@ body {
     text-align: center;
     margin-top: 1%;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 select,
@@ -56,6 +57,7 @@ fieldset .campo .grupo {
     background-color: grey;
     color: white;
     width: 200px;
+    height: 40px;
 }
 
 .campo select option {
@@ -63,21 +65,31 @@ fieldset .campo .grupo {
 }
 
 .input-group {
-    width: 500px;
+    width: 440px;
     padding: 2em;
     margin: auto;
 
 }
 
 button {
-    width: 250px;
+    width: 220px;
 
 }
 
-.resultado{
+.resultado {
     margin-right: 30%;
     padding: 20px;
     line-height: 3;
-        
+
 }
-       
+
+.box {
+
+    background-color: rgb(206, 249, 206);
+    text-align: center;
+    color: rgb(17, 173, 51);
+    font-size: 25px;
+    width: 45%;
+    margin: auto;
+
+}
